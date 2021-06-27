@@ -1,0 +1,1163 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+@font-face {
+  font-family: "gothambold";
+  src: url("../fonts/gothambold-webfont.eot");
+  src: url("../fonts/gothambold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothambold-webfont.woff2") format("woff2"), url("../fonts/gothambold-webfont.woff") format("woff"), url("../fonts/gothambold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gothambook";
+  src: url("../fonts/gothambook-webfont.eot");
+  src: url("../fonts/gothambook-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gothambook-webfont.woff2") format("woff2"), url("../fonts/gothambook-webfont.woff") format("woff"), url("../fonts/gothambook-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers.
+     */
+body {
+  margin: 0;
+}
+
+/**
+     * Render the `main` element consistently in IE.
+     */
+main {
+  display: block;
+}
+
+/**
+     * Correct the font size and margin on `h1` elements within `section` and
+     * `article` contexts in Chrome, Firefox, and Safari.
+     */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+       ========================================================================== */
+/**
+     * 1. Add the correct box sizing in Firefox.
+     * 2. Show the overflow in Edge and IE.
+     */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+       ========================================================================== */
+/**
+     * Remove the gray background on active links in IE 10.
+     */
+a {
+  background-color: transparent;
+}
+
+/**
+     * 1. Remove the bottom border in Chrome 57-
+     * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+     */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+     * Add the correct font weight in Chrome, Edge, and Safari.
+     */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+     * Add the correct font size in all browsers.
+     */
+small {
+  font-size: 80%;
+}
+
+/**
+     * Prevent `sub` and `sup` elements from affecting the line height in
+     * all browsers.
+     */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+       ========================================================================== */
+/**
+     * Remove the border on images inside links in IE 10.
+     */
+img {
+  border-style: none;
+}
+
+/* Forms
+       ========================================================================== */
+/**
+     * 1. Change the font styles in all browsers.
+     * 2. Remove the margin in Firefox and Safari.
+     */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+     * Show the overflow in IE.
+     * 1. Show the overflow in Edge.
+     */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+     * Remove the inheritance of text transform in Edge, Firefox, and IE.
+     * 1. Remove the inheritance of text transform in Firefox.
+     */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+     * Correct the inability to style clickable types in iOS and Safari.
+     */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+     * Remove the inner border and padding in Firefox.
+     */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+     * Restore the focus styles unset by the previous rule.
+     */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+     * Correct the padding in Firefox.
+     */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+     * 1. Correct the text wrapping in Edge and IE.
+     * 2. Correct the color inheritance from `fieldset` elements in IE.
+     * 3. Remove the padding so developers are not caught out when they zero out
+     *    `fieldset` elements in all browsers.
+     */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+     * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+     */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+     * Remove the default vertical scrollbar in IE 10+.
+     */
+textarea {
+  overflow: auto;
+}
+
+/**
+     * 1. Add the correct box sizing in IE 10.
+     * 2. Remove the padding in IE 10.
+     */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+     * Correct the cursor style of increment and decrement buttons in Chrome.
+     */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+     * 1. Correct the odd appearance in Chrome and Safari.
+     * 2. Correct the outline style in Safari.
+     */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+     * Remove the inner padding in Chrome and Safari on macOS.
+     */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+     * 1. Correct the inability to style clickable types in iOS and Safari.
+     * 2. Change font properties to `inherit` in Safari.
+     */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+       ========================================================================== */
+/*
+     * Add the correct display in Edge, IE 10+, and Firefox.
+     */
+details {
+  display: block;
+}
+
+/*
+     * Add the correct display in all browsers.
+     */
+summary {
+  display: list-item;
+}
+
+/* Misc
+       ========================================================================== */
+/**
+     * Add the correct display in IE 10+.
+     */
+template {
+  display: none;
+}
+
+/**
+     * Add the correct display in IE 10.
+     */
+[hidden] {
+  display: none;
+}
+
+header {
+  width: 100%;
+  height: 1000px;
+  background: url("../img/Overlay.png") center center no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+header .container_navigation {
+  position: absolute;
+  top: 20px;
+  z-index: 900;
+}
+
+header .header__logo img {
+  margin-left: 0px;
+  padding-top: 18px;
+  cursor: pointer;
+}
+
+header .header__logo img:hover {
+  opacity: 0.5;
+}
+
+header ul {
+  list-style: none;
+  text-transform: uppercase;
+  width: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 80px;
+  padding: 0;
+}
+
+header li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+header li .header__filled {
+  display: none;
+}
+
+header li:hover .header__unfilled,
+header li:focus .header__unfilled {
+  display: none;
+}
+
+header li:hover .header__filled,
+header li:focus .header__filled {
+  display: block;
+}
+
+header li p {
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 12px;
+  font-size: 17px;
+}
+
+header .haeder__link:first-child {
+  margin-left: 250px;
+}
+
+header .haeder__link {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+header .haeder__link img:hover {
+  opacity: 0.5;
+}
+
+header .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 18px;
+}
+
+header .title_text h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 96px;
+  padding-top: 230px;
+}
+
+header .title_text p {
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+header .swiper-container {
+  width: 100%;
+  height: 1000px;
+}
+
+header .swiper-slide img {
+  width: 100%;
+  height: 1000px;
+}
+
+header .heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+header h1 {
+  text-align: center;
+  left: 50%;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 100px;
+  padding-top: 0px;
+}
+
+header .heading_p {
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 0px;
+}
+
+header .Down {
+  position: absolute;
+  bottom: -800px;
+  text-align: center;
+}
+
+header .Down:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1399.98px) {
+  header .header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .Down {
+    bottom: -700px;
+  }
+  header ul {
+    margin: 0 auto;
+  }
+  header .link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .haeder__link:first-child {
+    margin-left: 0px;
+  }
+}
+
+.whatWeDo {
+  width: 100%;
+  background: #ffffff;
+  padding: 100px 10px;
+}
+
+.whatWeDo .strip {
+  width: 155px;
+  margin: 100px auto 30px;
+  border: 1px solid #2c4058;
+}
+
+.whatWeDo .info_text {
+  padding-left: 100px;
+}
+
+.whatWeDo h2 {
+  font-family: "gothambold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+.whatWeDo .whatWeDo_firstPhoto {
+  position: absolute;
+  width: 630px;
+  height: 470px;
+  margin-top: 150px;
+}
+
+.whatWeDo .blue_background {
+  position: absolute;
+  margin-top: 100px;
+  left: 180px;
+}
+
+.whatWeDo .blue_background2 {
+  position: absolute;
+  margin-top: 100px;
+  right: 180px;
+}
+
+.whatWeDo h3 {
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #2c4058;
+  margin: 220px 0 0;
+}
+
+.whatWeDo .second_heading {
+  text-align: start;
+  margin-top: 5px;
+}
+
+.whatWeDo p {
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4b5562;
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.whatWeDo .button {
+  width: 190px;
+  height: 50px;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid;
+  color: #2c4058;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+.whatWeDo .button:hover {
+  opacity: 0.5;
+}
+
+.whatWeDo .Marker {
+  padding-right: 10px;
+}
+
+.whatWeDo h5 {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 45px;
+  color: #000000;
+}
+
+@media (max-width: 1199.98px) {
+  .whatWeDo .info_text,
+  .whatWeDo .info_text_2 {
+    text-align: center;
+    padding-left: 100px;
+  }
+  .whatWeDo h3 {
+    margin: 70px 0 0;
+  }
+  .whatWeDo .second_heading {
+    text-align: center;
+  }
+  .whatWeDo .text_block {
+    width: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .whatWeDo .blue_background,
+  .whatWeDo .blue_background2 {
+    display: none;
+  }
+}
+
+.whatWeDo .whatWeDo_firstPhoto {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.latestNews {
+  position: relative;
+  background: url("../img/BG3.png") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1035px;
+}
+
+.latestNews .strip {
+  border: 1px solid #ffffff;
+  width: 155px;
+  margin: 100px auto 30px;
+}
+
+.latestNews h2 {
+  font-family: "gothambold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 30px 0 130px;
+}
+
+.latestNews .swiper-container {
+  width: 100%;
+}
+
+.latestNews .swiper-container img {
+  height: 240px;
+  width: 100%;
+}
+
+.latestNews .swiper-container h4 {
+  margin: 20px 0 0;
+  padding: 0 20px;
+  height: 68px;
+  font-family: "gothambold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+.latestNews .swiper-container p {
+  margin: 0;
+  padding: 0 20px;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4b5562;
+}
+
+.latestNews .swiper-button-next,
+.latestNews .swiper-button-prev {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border: 2px solid white;
+  color: white;
+  border-radius: 50px;
+}
+
+.latestNews .swiper-button-next:hover,
+.latestNews .swiper-button-prev:hover {
+  background-color: rgba(14, 63, 199, 0.5);
+}
+
+.latestNews .swiper-pagination {
+  position: absolute;
+  margin-top: 20px;
+  left: 50%;
+}
+
+.latestNews .swiper-button-next {
+  position: absolute;
+  top: 55%;
+  right: 100px;
+}
+
+.latestNews .swiper-button-prev {
+  position: absolute;
+  top: 55%;
+  left: 100px;
+}
+
+.latestNews .swiper-slide {
+  width: 370px;
+  height: 500px;
+  background-color: #ffffff;
+}
+
+.latestNews .swiper-slide .img_ava {
+  width: 60px;
+  height: 60px;
+  margin: 30px 20px 20px;
+}
+
+.latestNews .swiper-slide h5 {
+  margin: 40px 0 0;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+.latestNews .swiper-slide .text_date {
+  padding: 0;
+  margin: 15px 0 0;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 13px;
+  color: #55b7ff;
+}
+
+.gallery {
+  padding: 140px;
+}
+
+.gallery .strip {
+  border: 1px solid #2c4058;
+  width: 155px;
+  margin: 10px auto 30px;
+}
+
+.gallery h2 {
+  font-family: "gothambold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c4058;
+  margin: 30px 0 130px;
+}
+
+.gallery .button {
+  width: 190px;
+  height: 50px;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid;
+  color: #2c4058;
+  padding: 20px 40px;
+  text-decoration: none;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  top: 80px;
+  left: 40%;
+}
+
+.gallery .button:hover {
+  opacity: 0.5;
+}
+
+.gallery .view {
+  position: relative;
+  -webkit-transform: translate(80%, -320%);
+          transform: translate(80%, -320%);
+  top: -50%;
+  left: 35%;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.gallery .view:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.gallery .gallery__img {
+  width: 100%;
+}
+
+.gallery .gallery__img:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  padding-top: 205px;
+  width: 100%;
+  height: 520px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("../img/BG2.png");
+  background-size: cover;
+}
+
+.footer__inner {
+  width: 770px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #fff;
+}
+
+.footer__inner a {
+  text-decoration: none;
+}
+
+.footer__logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.footer__logo img:hover {
+  opacity: 0.5;
+}
+
+.footer__links {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__link + .footer__link {
+  margin-left: 20px;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
+}
+
+.footer__copy {
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media (max-width: 767.98px) {
+  .footer .footer {
+    margin-top: 300px;
+    width: 100%;
+  }
+  .footer .footer__inner {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.entryField {
+  display: block;
+}
+
+.entryField .connection {
+  position: absolute;
+  left: 50%;
+  margin-top: -300px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 770px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px;
+  padding-bottom: 80px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff;
+}
+
+.entryField .connection a {
+  text-decoration: none;
+  color: #2c4058;
+}
+
+.entryField .connection .connection__title {
+  font-family: "gothambold";
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+  height: 81px;
+  font-size: 44px;
+  line-height: 53px;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+
+.entryField .connection hr {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #2c4058;
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.entryField .connection_left {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.entryField .connection_right {
+  margin-top: 30px;
+}
+
+.entryField .connection__Mollie {
+  width: 300px;
+  height: 34px;
+  border: none;
+  border-bottom: 1px solid #2c4058;
+  opacity: 0.5;
+  margin-bottom: 40px;
+}
+
+.entryField .connection__email {
+  width: 300px;
+  height: 34px;
+  border: none;
+  border-bottom: 1px solid #2c4058;
+  opacity: 0.5;
+}
+
+.entryField .connection__email:focus,
+.entryField .connection__Mollie:focus {
+  outline: none;
+  opacity: 1;
+}
+
+.entryField ::-webkit-input-placeholder {
+  padding-left: 10px;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2c4058;
+}
+
+.entryField :-ms-input-placeholder {
+  padding-left: 10px;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2c4058;
+}
+
+.entryField ::-ms-input-placeholder {
+  padding-left: 10px;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2c4058;
+}
+
+.entryField ::placeholder {
+  padding-left: 10px;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2c4058;
+}
+
+.entryField .connection__submit {
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+  font-family: "gothambook";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #2c4058;
+  color: #2c4058;
+  margin-top: 30px;
+}
+
+.entryField .connection__submit:hover {
+  opacity: 0.5;
+}
+
+.entryField .button {
+  text-align: right;
+}
+
+#map {
+  width: 100%;
+  height: 700px;
+}
+/*# sourceMappingURL=style.css.map */

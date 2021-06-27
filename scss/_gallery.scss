@@ -1,0 +1,65 @@
+.gallery {
+  padding: 140px;
+  .strip {
+    border: 1px solid #2c4058;
+    width: 155px;
+    margin: 10px auto 30px;
+  }
+  h2 {
+    font-family: "gothambold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c4058;
+    margin: 30px 0 130px;
+  }
+  .button {
+    width: 190px;
+    height: 50px;
+    font-family: "gothambook";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid;
+    color: #2c4058;
+    padding: 20px 40px;
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    top: 80px;
+    left: 40%;
+  }
+  .button:hover {
+    opacity: 0.5;
+  }
+  .view {
+    position: relative;
+    transform: translate(80%, -320%);
+    top: -50%;
+    left: 35%;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .view:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .gallery__img {
+    width: 100%;
+  }
+  .gallery__img:hover {
+    opacity: 0.8;
+  }
+}
